@@ -21,6 +21,11 @@
 - Manipulação de arrays
 - Manipulação de DOM
 
+## Preview do Calculadora Nova
+
+![](https://github.com/thiagokubrusly/calculadora-v2.0/blob/master/preview_newCalc.gif?raw=true)
+
 ## Preview do Calculadora Antiga
 
 ![](https://github.com/thiagokubrusly/calculadora-v2.0/blob/master/preview_oldCalc.gif?raw=true)
+
