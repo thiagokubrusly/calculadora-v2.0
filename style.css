@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-blue: rgb(143, 165, 254);
+  --bg-purple: rgb(55, 9, 195);
+  --btn-color: rgb(143, 165, 254);
+
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--bg-blue);
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.calculator,
+input {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15),
+    -1px -1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.calculator {
+  width: 43.0rem;
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 1.0rem;
+}
+
+input:not(.text) {
+  border-radius: 20%;
+  width: 7.0rem;
+  height: 7.0rem;
+  margin: 1.0rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+input:hover:not(.text, .op) {
+  background-color: var(--bg-purple);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.op {
+  color: var(--btn-color);
+}
+
+.op:hover {
+  background-color: var(--bg-purple);
+  color: var(--btn-color);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.output .text {
+  width: 100%;
+  height: 7.0rem;
+  padding: 0 2.0rem 0 0;
+  margin-bottom: 1.5rem;
+  text-align: right;
+  font-size: 3.0rem;
+  border-radius: 5.0rem;
+}
+
+.calculator .equal {
+  width: 15.5rem;
+  border-radius: 20%;
+}
