@@ -29,7 +29,6 @@ equalEl.addEventListener("click",()=>{
 const keyboardMap = {
     'c': 'cleanDisplay',
     Backspace: 'del',
-    '%': 'percentage',
     '/': 'opDivision',
 
     7: 'key7',

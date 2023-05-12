@@ -13,37 +13,36 @@
     <div class="calculator">
 
         <div class="output">
-            <input type="text" class="text" value="" placeholder="0">
+            <input type="text" class="text" placeholder="0" disabled>
         </div>
 
         <div>
-            <input type="button" value="AC" class="op AC" id="cleanDisplay">
-            <input type="button" value="DEL" class="op DEL" id="del">
-            <input type="button" value="%" class="op val" id="percentage">
-            <input type="button" value="/" class="op val" id="opDivision">
+            <button value="AC" class="op AC" id="cleanDisplay">AC</button>
+            <button value="DEL" class="op DEL" id="del">DEL</button>
+            <button value="/" class="op val" id="opDivision">/</button>
+            <button value="*" class="op val" id="opMultiplication">*</button>
         </div>
         <div>
-            <input type="button" value="7" class="val" id="key7">
-            <input type="button" value="8" class="val" id="key8">
-            <input type="button" value="9" class="val" id="key9">
-            <input type="button" value="*" class="op val" id="opMultiplication">
+            <button value="7" class="val" id="key7">7</button>
+            <button value="8" class="val" id="key8">8</button>
+            <button value="9" class="val" id="key9">9</button>
+            <button value="-" class="op val" id="opSubtraction">-</button>
         </div>
         <div>
-            <input type="button" value="4" class="val" id="key4">
-            <input type="button" value="5" class="val" id="key5">
-            <input type="button" value="6" class="val" id="key6">
-            <input type="button" value="-" class="op val" id="opSubtraction">
+            <button value="4" class="val" id="key4">4</button>
+            <button value="5" class="val" id="key5">5</button>
+            <button value="6" class="val" id="key6">6</button>
+            <button value="+" class="op val" id="opSum">+</button>
         </div>
         <div>
-            <input type="button" value="1" class="val" id="key1">
-            <input type="button" value="2" class="val" id="key2">
-            <input type="button" value="3" class="val" id="key3">
-            <input type="button" value="+" class="op val" id="opSum">
+            <button value="1" class="val" id="key1">1</button>
+            <button value="2" class="val" id="key2">2</button>
+            <button value="3" class="val" id="key3">3</button>
+            <button value="." class="op val" id="decimal">.</button>
         </div>
-        <div>
-            <input type="button" value="." class="op val" id="decimal">
-            <input type="button" value="0" class="val" id="key0">
-            <input type="button" value="=" class="equal op" id="opEqual">
+        <div class="lastLine">
+            <button value="0" class="val" id="key0">0</button>
+            <button value="=" class="equal op" id="opEqual">=</button>
         </div>
     </div>
 

@@ -19,13 +19,16 @@ body {
   background-color: var(--bg-blue);
 }
 
-input {
+.lastLine{
+  display: flex;
+}
+
+button, input {
   outline: none;
   border: none;
 }
 
-.calculator,
-input {
+.calculator, button, input {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15),
     -1px -1px 10px rgba(0, 0, 0, 0.15);
 }
@@ -37,7 +40,7 @@ input {
   border-radius: 1.0rem;
 }
 
-input:not(.text) {
+button:not(.text), button {
   border-radius: 20%;
   width: 7.0rem;
   height: 7.0rem;
@@ -47,7 +50,7 @@ input:not(.text) {
   transition: all 0.2s ease-in-out;
 }
 
-input:hover:not(.text, .op) {
+button:hover:not(.text, .op) {
   background-color: var(--bg-purple);
   color: white;
   cursor: pointer;
@@ -76,6 +79,6 @@ input:hover:not(.text, .op) {
 }
 
 .calculator .equal {
-  width: 15.5rem;
+  width: 26.5rem;
   border-radius: 20%;
 }
