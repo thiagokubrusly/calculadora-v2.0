@@ -18,6 +18,7 @@
 ## Novos conhecimentos JS aplicados
 
 - Objetos
+- Arrow functions
 - Manipulação de arrays
 - Manipulação de DOM
 
