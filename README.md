@@ -5,7 +5,7 @@
 |||
 | -------------  | --- |
 | :bookmark: Nome        | **Calculadora v2.0**
-| :gear: Tecnologias | HTML, CSS, JS
+| :gear: Tecnologias  | HTML, CSS, JS
 | :earth_americas: URL         | https://thiagokubrusly.github.io/calculadora-v2.0/
 | :crossed_swords: Desafio     | Evolução de Desafio Anterior (https://github.com/thiagokubrusly/21-days-of-code/tree/main/day_4)
 
